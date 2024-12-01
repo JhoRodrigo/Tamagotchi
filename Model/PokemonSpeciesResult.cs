@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tamagotchi
+namespace Tamagotchi.Model
 {
     public class PokemonSpeciesResult
     {
@@ -12,6 +12,5 @@ namespace Tamagotchi
         public string Next { get; set; }
         public string Previous { get; set; }
         public List<PokemonResult> Results { get; set; }
-
     }
 }

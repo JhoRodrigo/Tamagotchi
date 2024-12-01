@@ -1,11 +1,11 @@
 ﻿using Newtonsoft.Json;
 using RestSharp;
 using System;
-using Tamagotchi;
+using Tamagotchi.Model;
 
 public class ProgramOld
 {
-    public static void Main(string[] args)
+    public static void Main2(string[] args)
     {
         ////////////////////////////////////////////////////////////////////////
         ///INICIO 1 DIA
